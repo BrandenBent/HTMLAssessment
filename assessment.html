@@ -17,7 +17,7 @@
     <br>
     <thead>
       <tr></tr>
-      <th rowspan="4">Team Name</th>
+      <th rowspan="3">Team Name</th>
       <th colspan="3">First Half</th>
       <th colspan="3">Second Half</th>
     </thead>
@@ -72,19 +72,38 @@
   </ul>
 
   <h2>FORM</h2>
-    <form action="assessment.html">First:
+    <form>
+      First:
       <input type="text" name="firstName" value="">
       Last:
         <input type="text" name="firstName" value="">
     </form>
 
-    <form action="assessment.html">
+    <form>
       Favorite Sport:
-      <input type="select" name="favSport" value="">
-
-
+        <select>
+          <option value="football">FootBall</option>
+          <option value="soccer">Soccer</option>
+          <option value="baseball">BaseBall</option>
+        </select>
     </form>
 
+    <form>
+      I have:
+      <input type="checkbox" name="events" value="">Attended
+      <input type="checkbox" name="events" value="">Played
+      <input type="checkbox" name="events" value="">Coached
+      <input type="checkbox" name="events" value="">Bet On <br>
+      this sport.
+    </form>
+      For this sport I prefer the:
+      <input type="radio" name="level" value="amatuer">Amatuer
+      <input type="radio" name="level" value="college">College
+      <input type="radio" name="level" value="professional">Professional
+    <form>
+      <input type="submit" name="" value="Submit Query">
+    </form>
+    <br><br><br>
 
 </body>
 </html>
