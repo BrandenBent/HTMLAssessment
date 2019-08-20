@@ -1,0 +1,68 @@
+.subjectHeader {
+  color: green;
+  font-family: sans-serif;
+}
+
+th {
+  font-weight: bold;
+}
+
+#scoreBoard {
+    border: solid black 1px;
+    text-align: center;
+}
+
+ul {
+  list-style: square;
+
+}
+
+.hyperLink:hover {
+  background-color: lightblue;
+  /* color: rebeccapurple; */
+  text-decoration: none;
+}
+
+blockquote {
+  background-color: black;
+  color: white;
+}
+
+ul#teamRoster > li:first-child {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
+
+  /* opacity: .5; */
+  background-repeat: no-repeat;
+  background-size: 235px, 200px;
+  background-position: left;
+  position: relative;
+
+
+}
+
+ul#teamRoster > li:last-child {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-size: 210px, 200px;
+  /* opacity: .5; */
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+
+
+}
+
+img {
+  width: 0px;
+}
+
+#checkbox-grid {
+  list-style: none;
+}
+
+/* STRETCH GOALS */
+/* primary QB bolded */
+ol > li:first-child {
+  font-weight: bold;
+}
+
+/*  */
